@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 11.5px;
+  color: white;
+  background-color: #232323;
+  
+  margin: 0;
+}
+
+.header {
+  text-align: center;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+}
+
+
+
+#typing-effect {
+  font-size: 40px;
+  font-weight: bold;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #95A6C2;
+  width: fit-content;
+}
+
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh; /* Ajustez la hauteur en fonction de vos besoins */
+}
+
+
+
+
+img.rounded-img{
+  border-radius: 9px;
+   width: 600px;
+  height : 300px;
+  text-align: center;
+  display: block;
+  margin: 2rem auto;
+  max-width: 100%;
+  padding: 1vh;
+}
+
+
+
+.card-container {
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  margin-left: 30px;
+  padding: 2vh;
+  position: relative;
+  left: 15vh;
+}
+
+
+span.first{
+  border-bottom: 3px solid greenyellow;
+  background-size: 100% 200%;
+  transition: background 1s
+  
+}
+
+span.second{
+  border-bottom: 3px solid red;
+  background-size: 100% 200%;
+  transition: background 1s;
+  
+}
+span.three{
+  border-bottom: 3px solid blue;
+  background-size: 100% 200%;
+  transition: background 1s;
+  
+}
+span.four{
+  border-bottom: 3px solid rgb(85, 216, 29);
+  background-size: 100% 200%;
+  transition: background 1s;
+  
+}
+
+span.six{
+  border-bottom: 3px solid rgb(19, 218, 204);
+  background-size: 100% 200%;
+  transition: background 1s;
+  
+}
+
+span.five {
+  border-bottom: 3px solid white;
+  background-size: 100% 200%;
+  transition: background 1s; 
+}
+
+span.seven {
+  border-bottom: 3px solid rgb(174, 5, 172);
+  background-size: 100% 200%;
+  transition: background 1s; 
+}
+span.heigh {
+  border-bottom: 3px solid rgb(244, 234, 61);
+  background-size: 100% 200%;
+  transition: background 1s; 
+}
+
+.card {
+  background-color: #48484884;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 180px;
+  border-radius: 10%;
+  border : 2px solid #000000;
+}
+
+.title {
+  font-size: 20px;
+  color: white;
+  margin-top: 30px;
+}
+
+.disc {
+  font-size: 12px;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.buttons {
+  background-color: rgba(125, 111, 192, 0.657);
+  border: none;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.buttons:hover {
+  background-color: rgba(125, 111, 192, 0.9);
+}
+
+
+
+
+
+
+
+
+p.non-intented{
+  margin: 10vh;
+}
+
+img.discord{
+  position: relative;
+  text-align: center;
+  bottom: 10vh;
+  left: 100vh;
+  width: 50px;
+  height: 50px;
+}
+
+p.joinus {
+  font-family: Arial, Helvetica, sans-serif;
+}
